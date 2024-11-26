@@ -28,8 +28,10 @@ var waypoint = new Waypoint({
     p[2].setAttribute("style", "width:80%;transition:1.7s all;"); // php
     p[3].setAttribute("style", "width:80%;transition:2s all;"); // phyton
     p[4].setAttribute("style", "width:85%;transition:2.3s all;"); // Angular
-    p[5].setAttribute("style", "width:90%;transition:2.5s all;"); // Asp.net
-    p[6].setAttribute("style", "width:80%;transition:2.8s all;"); // GHL
+    p[5].setAttribute("style", "width:85%;transition:2.3s all;"); // React
+    p[6].setAttribute("style", "width:90%;transition:2.5s all;"); // Asp.net
+    p[7].setAttribute("style", "width:80%;transition:2.8s all;"); // GHL
+    p[8].setAttribute("style", "width:80%;transition:2.8s all;"); // Wordpress
 
   },
    offset: '90%'
@@ -89,7 +91,7 @@ var filterizd = $('.filter-container').filterizr({
 
 
   var typed = new Typed(".element", {
-  strings: ["Allen Christian Custodio","a Web Developer","a Software Engineer", "Front-End Developer"],
+  strings: ["Allen Christian Custodio","a Web Developer","a Software Engineer", "a Full Stack Developer"],
   smartBackspace: true,
    typeSpeed: 100,
    backSpeed: 100,
